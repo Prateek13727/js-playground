@@ -1,0 +1,29 @@
+{
+  "name": "reduxplayground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:test": "npx babel reduxStoreTest.js --out-file scriptTest.js",
+    "babelify": "npx babel toDoStore.js --out-file script.js",
+    "test": "jest",
+    "dev-server": "live-server --port=3005"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^23.6.0",
+    "deep-freeze": "0.0.1",
+    "jest": "^23.6.0"
+  }
+}
